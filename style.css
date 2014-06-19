@@ -1,10 +1,14 @@
 h3{
 	text-align:center;
 }
-#wrapper{
- max-width:940px;
- margin: 0 auto;
-padding: 0 5%;
+#wrapper
+{
+    margin: 0 auto;
+    position: relative;
+    width: 500px;
+    z-index: 999;
+    
+    border: 2px solid white;
 }
 img {
 
@@ -16,3 +20,18 @@ footer{
 
 	display:inline;
 }
+#portrait{
+
+	width:250px;
+	height: 275px;
+
+}
+html.background{
+        background: url(IMG_1021.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
