@@ -1,32 +1,34 @@
-h3{
+h2{
 	text-align:center;
+	margin-bottom: 20px;
 }
-#wrapper
+.wrapper
 {
     margin: 0 auto;
     position: relative;
-    width: 500px;
     z-index: 999;
     
-    border: 2px solid white;
 }
-img {
+.img-responsive{
 
 	margin: 0 auto;
-	width: 940px;
-	height: 250px;
+	width: 900px;
+	height: 300px;
+	padding-right: 40px;
 }
-footer{
-
-	display:inline;
-}
-#portrait{
-
-	width:250px;
-	height: 275px;
+#fancy{
+	width: 900px;
+	margin: 0 auto;
+	background-color: #EBF5FF;
+	box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.9), -12px 0 8px -4px rgba(31, 73, 125, 0.9);
 
 }
-html.background{
+#backhome{
+	background-color: #727F8B;
+}
+
+
+.wrapper{
         background: url(IMG_1021.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -34,4 +36,85 @@ html.background{
         background-size: cover;
 
 }
+.submit{
+	margin-bottom: 30px;
+}
 
+#nav{
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none; 
+	 background-color: #f2f2f2;
+     border-bottom: 1px solid #ccc; 
+     border-top: 1px solid #ccc; }
+
+#nav li {
+	float: left; 
+	
+}
+
+#nav li a{
+
+	 display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #069;
+      border-right: 1px solid #ccc;
+}
+
+  #nav li a:hover 
+  {
+      color: #c00;
+      background-color: #fff; 
+  }
+#quote{
+	margin-bottom: 200px;
+	text-align: center;
+}
+.pages{
+	margin: 0 auto;
+	width: 940px;
+	height: 250px;
+}
+#portrait{
+	margin-left: 210px;
+	width:250;
+	height:250;
+	margin-bottom:30px;
+	margin-top: 30px;
+}
+.content{
+	margin-top: 75px;
+	margin-bottom: 75px;
+	background-color: #EBF5FF;
+	width: 700px;
+	height:700px;
+	opacity: .87;
+	color:#00478F;
+	padding:20px;
+
+}
+.resources{
+	margin-left: 45px;
+}
+#links{
+
+	list-style-type: none;
+  
+}
+h3{
+
+	text-align: center;
+	color: #14293D;
+}
+.home{
+
+	background-color: LightSteelBlue;
+	border-bottom: 10px solid #14293D;
+}
+.homecolor{
+	background-color: #EBF5FF;
+}
