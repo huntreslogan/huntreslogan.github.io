@@ -4,6 +4,10 @@
 		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="script.js"></script>
 		 <link rel="stylesheet" href="normalize.css"></link>
+		 <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="jquery.fullPage.js"></script>
 		 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"></link>
 		 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="style.css"></link>
@@ -18,16 +22,44 @@
 					<h3>DJ Hunt Private Client Group</h3>
 					
 				</div>
-				<ul id="nav">
-						<nav>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="index2.html">About</a></li>
-							<li><a href="index3.html">Services</a></li>
-							<li><a href="index4.html">Contact Me</a></li>
-							<li><a href="index5.html">Resources</a></li>
-							<li><a href="index6.html">Privacy Policy</a></li>
-						</nav>
-				</ul><br>
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				  <div class="container-fluid">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand" href="index.html">Home</a>
+				    </div>
+				     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+				        <li class="active"><a href="index2.html">About DJHunt</a></li>
+				        <li><a href="index4.html">Contact DJHunt</a></li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services and Resources<b class="caret"></b></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="index3.html">Services</a></li>
+				            <li><a href="index5.html">Resources</a></li>
+				            <li class="divider"></li>
+				            <li><a href="index6.html">Privacy Policy</a></li>
+				            <li class="divider"></li>
+				            <li><a href="test.html">Test</a></li>
+				          </ul>
+				        </li>
+				      </ul>
+				      <form class="navbar-form navbar-right" role="search">
+				        <div class="form-group">
+				          <input type="text" class="form-control" placeholder="Search">
+				        </div>
+				        <button type="submit" class="btn btn-default">Submit</button>
+				      </form>
+				      
+				    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
 				<br><div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 				  <!-- Indicators -->
 				  <ol class="carousel-indicators">
@@ -40,10 +72,12 @@
 				  </ol>
 
 				  <!-- Wrapper for slides -->
-				    <div class="carousel-inner">
+				    <div class="carousel-inner" data-pause="hover">
 					    <div class="item active">
 					      <img src="canoers_on_lake_louise.jpg" alt="canoers">
-
+					      <div class="carousel-caption">
+					      		<h class="text-left" style="font-size:3em; color:white">Strive for a secure future</h>
+					      </div>
 					  	</div>
 					  
 						<div class="item">
@@ -71,10 +105,25 @@
 				</div>
 
 				<div id="quote">
-					<p><em>"Some inspirational quote here."</em></p>
-					
-				</div><br>
-				<br><small><p class="muted">&copy; 2014 DJ Hunt Private Client Group</p></small>
+					<br><em><p>Our purpose: Establishing and preserving your financial independence.</p></em>
+					<br><em><p>Trust: Reliance on the integrity and confidence in the ability, knowledge and prudence of your advisor.</p></em>	
+				</div>
+				<div class="imagelink row container-fluid">
+					<div class="col-xs-6 col-md-4">
+						<a class="thumbnail" href="http://online.wsj.com/home-page"><img src="wallstreetjournal.jpg" alt="" /></a>
+					</div>
+					<div class="col-xs-6 col-md-4">
+						<a class="thumbnail" href="http://www.investopedia.com/"><img src="http://www.consumercredit.com/media/141209/investopedia-logo-1-.jpg" alt="" /></a>
+					</div>
+					<div class="col-xs-6 col-md-4">
+						<a class="thumbnail" href="http://www.bloomberg.com/"><img src="rsz_1bloomberg.png" alt="" /></a>
+					</div>
+				</div>
+				<div>
+					<ul>
+					</ul>
+					<br><small><p class="muted">&copy; 2014 DJ Hunt Private Client Group. Designed by Huntreslogan.<br>Contact: 1 (800) 817-4868</p></small>
+				</div>
 			</div>
 		</body>
 		

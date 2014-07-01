@@ -5,6 +5,7 @@
 		<script src="script.js"></script>
 		 <link rel="stylesheet" href="normalize.css"></link>
 		 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"></link>
+		  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="style.css"></link>
 	</head>
 
@@ -14,16 +15,44 @@
 			<div class="container-fluid">
 				<title>DJ Hunt Private Client Group</title>
 			</div>
-			<ul id="nav">
-					<nav>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="index2.html">About</a></li>
-						<li><a href="index3.html">Services</a></li>
-						<li><a href="index4.html">Contact Me</a></li>
-						<li><a href="index5.html">Resources</a></li>
-						<li><a href="index6.html">Privacy Policy</a></li>
-					</nav>
-			</ul>
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				  <div class="container-fluid">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand" href="index.html">Home</a>
+				    </div>
+				     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+				        <li class="active"><a href="index2.html">About DJHunt</a></li>
+				        <li><a href="index4.html">Contact DJHunt</a></li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services and Resources<b class="caret"></b></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="index3.html">Services</a></li>
+				            <li><a href="index5.html">Resources</a></li>
+				            <li class="divider"></li>
+				            <li><a href="index6.html">Privacy Policy</a></li>
+				            <li class="divider"></li>
+				            <li><a href="#">FAQ</a></li>
+				          </ul>
+				        </li>
+				      </ul>
+				      <form class="navbar-form navbar-right" role="search">
+				        <div class="form-group">
+				          <input type="text" class="form-control" placeholder="Search">
+				        </div>
+				        <button type="submit" class="btn btn-default">Submit</button>
+				      </form>
+				      
+				    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
 			<div class="content img-rounded container-fluid">
 				<h2>Resources</h2><br>
 				<strong><p class="resources">Below is a list of useful resources for meeting your goal of finanial indepenedence.</p></strong><br>
@@ -31,6 +60,8 @@
 					<li><a href="http://www.investopedia.com">Investopedia</a></li>
 					<li><a href="http://www.bloomberg.com">Bloomberg</a></li>
 					<li><a href="http://online.wsj.com/home-page">The Wallstreet Journal</a></li>
+					<li><a href="http://www.letsmakeaplan.org/">Let's Make a Plan</a></li>
+
 				</ul>
 				
 			</div>
