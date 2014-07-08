@@ -112,7 +112,7 @@ margin-left: 125px;
 margin-top: 0;
 }
 .puggy{
-	margin-top: -25px;
+	margin-top: 35px;
 	margin-bottom: 75px;
 	background-color: #EBF5FF;
 	width: 500px;
@@ -124,12 +124,14 @@ margin-top: 0;
 }
 
 .pugimage{
+
         background: url(IMG_1163.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         z-index: 1;
+        
 }
 .pugs
 {
@@ -149,12 +151,22 @@ margin-top: 0;
 }
 
 h3{
-
-text-align: left;
+text-align: center;
 }
 .resource{
 	color:black;
 }
 .square{
 	list-style-type: square;
+}
+
+.panel{
+	border:none;
+	background-color: transparent;
+}
+.footer{
+	display: inline;
+}
+.nav-bottom{
+	
 }

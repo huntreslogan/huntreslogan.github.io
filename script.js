@@ -1,9 +1,9 @@
 $(document).ready(function() {
     $('.carousel').carousel({
-        interval: 1500
+        interval: 2000
     });
-    $('.popover-btn').popover({
-        trigger: 'hover'
+     $('.popover-btn').popover({
+        trigger: 'click'
     });
     $( "#accordion" ).accordion();
 
