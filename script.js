@@ -1,8 +1,15 @@
+$(document).ready(function() {
+    $('.carousel').carousel({
+        interval: 1500
+    });
+    $('.popover-btn').popover({
+        trigger: 'hover'
+    });
+    $( "#accordion" ).accordion();
 
-$( document ).click(function() {
-  $( "#toggle" ).toggle( "puff" );
+    $('.imagelink').hover(function() {
+        $( "#toggle" ).toggle( "highlight" );
+    });
 });
 
-$('.carousel').carousel({
-interval: 1500
-});
+

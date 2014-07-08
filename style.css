@@ -73,7 +73,7 @@ z-index: 1;
 	background-color: #EBF5FF;
 	width: 500px;
 	height:600px;
-	opacity: .87;
+	opacity: .77;
 	color: #505050;
 	padding:10px;
 	float: left;
@@ -137,4 +137,24 @@ margin-top: 0;
     position: relative;
     z-index: 999;
     
+}
+
+#areas:hover > div:hover .panel 
+{
+    opacity: 1;
+    background-color: #99ccff;
+
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+h3{
+
+text-align: left;
+}
+.resource{
+	color:black;
+}
+.square{
+	list-style-type: square;
 }
