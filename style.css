@@ -1,6 +1,8 @@
 h2{
-	text-align:center;
-	margin-bottom: 20px;
+	text-align: center;
+	text-shadow: 0px 1px 1px #4d4d4d;
+	color: #222;
+	font: 50px 'LeagueGothicRegular';
 }
 .wrapper
 {
@@ -17,7 +19,7 @@ h2{
 	padding-right: 40px;
 }
 #fancy{
-	width: 900px;
+	width: 1000px;
 	margin: 0 auto;
 	background-color: #EBF5FF;
 	box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.9), -12px 0 8px -4px rgba(31, 73, 125, 0.9);
@@ -51,8 +53,10 @@ z-index: 1;
 #quote{
 	margin-bottom: 50px;
 	text-align: center;
-	color: #505050 ;
-	font-size: 1.75em;
+	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+	color: #9c8468;
+	opacity: 0.3;
+	font: 1.75em 'Museo700';
 	border-bottom: 1px dotted #505050;
 }
 .pages{
@@ -61,7 +65,7 @@ z-index: 1;
 	height: 250px;
 }
 #portrait{
-	margin-left: 115px;
+	margin-left: 170px;
 	width:250;
 	height:250;
 	margin-bottom:30px;
@@ -71,12 +75,15 @@ z-index: 1;
 	margin-top: 35px;
 	margin-bottom: 75px;
 	background-color: #EBF5FF;
-	width: 500px;
-	height:600px;
+	width: 600px;
+	height:700px;
 	opacity: .77;
 	color: #505050;
-	padding:10px;
-	float: left;
+	padding-right:50px;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: center;
 
 
 }
@@ -91,7 +98,9 @@ z-index: 1;
 h3{
 
 	text-align: center;
-	color: #14293D;
+	text-shadow: 0px 1px 1px #4d4d4d;
+	color: #222;
+	font: 55px 'LeagueGothicRegular';
 }
 .home{
 
@@ -103,7 +112,7 @@ h3{
 	background-color: #EBF5FF;
 }
 .carousel-inner{
-margin-left: 125px;
+margin-left: 175px;
 }
 .textarea{
 	margin-top: 20px;
@@ -112,10 +121,10 @@ margin-left: 125px;
 margin-top: 0;
 }
 .puggy{
-	margin-top: 35px;
+	margin-top: -20px;
 	margin-bottom: 75px;
 	background-color: #EBF5FF;
-	width: 500px;
+	width: 600px;
 	height:600px;
 	opacity: .87;
 	color: #505050;
@@ -131,7 +140,7 @@ margin-top: 0;
         -o-background-size: cover;
         background-size: cover;
         z-index: 1;
-        
+
 }
 .pugs
 {
@@ -169,4 +178,53 @@ text-align: center;
 }
 .nav-bottom{
 	
+}
+
+.item{
+	height: 375px;
+	width: 1000px;
+}
+.caption{
+text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+color: #9c8468;
+opacity: 0.3;
+font: 50px 'Museo700';	
+margin-left: -355px;
+}
+
+.services{
+	border: 1px solid black;
+	padding:15px;
+}
+#services1:hover
+{
+
+  width: 550px; 
+  height: 250px; 
+  margin: -5px 0 0 -5px; 
+  box-shadow: 0 0 8px rgba(0,0,0,0.8); 
+  z-index: 10;
+  background-color: #EDF1F7;
+}
+
+#services2:hover
+{
+
+  width: 550px; 
+  height: 150px; 
+  margin: -5px 0 0 -5px; 
+  box-shadow: 0 0 8px rgba(0,0,0,0.8); 
+  z-index: 10;
+  background-color: #EDF1F7;
+}
+
+#services3:hover
+{
+
+  width: 550px; 
+  height: 150px; 
+  margin: -5px 0 0 -5px; 
+  box-shadow: 0 0 8px rgba(0,0,0,0.8); 
+  z-index: 10;
+  background-color: #EDF1F7;
 }
