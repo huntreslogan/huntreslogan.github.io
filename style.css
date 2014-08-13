@@ -187,8 +187,8 @@ text-align: center;
 }
 .caption{
 text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
-color: #9c8468;
-opacity: 0.3;
+color: #BABA95;
+opacity: 0.4;
 font: 55px 'Museo700';	
 margin-left: -355px;
 }
@@ -228,4 +228,7 @@ margin-left: -355px;
   box-shadow: 0 0 8px rgba(0,0,0,0.8); 
   z-index: 10;
   background-color: #EDF1F7;
+}
+.popover-btn{
+	font-size: 20px;
 }
