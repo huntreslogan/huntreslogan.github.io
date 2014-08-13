@@ -21,7 +21,7 @@ h2{
 }
 #fancy{
 	width: 1000px;
-	height: 100%;
+	height: 2000px;
 	margin: 0 auto;
 	background-color: #EBF5FF;
 	box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.9), -12px 0 8px -4px rgba(31, 73, 125, 0.9);
@@ -29,6 +29,7 @@ h2{
 }
 #backhome{
 	background-color: #727F8B;
+	height: 2000px;
 }
 
 
